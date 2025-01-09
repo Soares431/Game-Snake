@@ -3,7 +3,6 @@ import pygame
 import random
 
 pygame.init()
-
 pygame.display.set_caption("Snake in Python")
 
 #  cria um tela
@@ -77,7 +76,7 @@ def roda_jogo():
       
       tela.fill(preto)
       
-      for evento in pygame.event.get(): # pega os inputs e interações do usuario
+      for evento in pygame.event.get(): # pega as interações do usuario
          if evento.type == pygame.QUIT:
             fim_jogo = True
          elif evento.type == pygame.KEYDOWN:
