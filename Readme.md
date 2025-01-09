@@ -3,9 +3,13 @@ Snake Game em Python utilizando Pygame
 ---------------------------------------
 
 Este é um jogo clássico da cobrinha, onde o jogador controla uma cobra que cresce ao comer comida. 
-O objetivo é evitar que a cobra colida com as bordas ou consigo mesma.
+O objetivo é evitar que a cobra colida com as bordas ou consigo mesma. 
 
-Configurações:
+Como Jogar:
+- Use as setas do teclado para mover a cobra.
+- O jogo termina se a cobra colidir com as bordas ou com seu próprio corpo.
+
+Configurações padrões:
 - Tamanho da tela: 600x400 pixels
 - Tamanho do quadrado (células): 10x10 pixels
 - Velocidade do jogo: 15 quadros por segundo
@@ -33,6 +37,6 @@ Bibliotecas Necessárias:
 - `pygame`: Para gráficos e controle de eventos.
 - `random`: Para gerar posições aleatórias para a comida.
 
-Como Jogar:
-- Use as setas do teclado para mover a cobra.
-- O jogo termina se a cobra colidir com as bordas ou com seu próprio corpo.
+AVISO
+Este jogo foi desenvolvido exclusivamente para fins de entretenimento e aprendizado, seguindo o tutorial do canal Hashtag Programação no vídeo: "Jogo Snake em Python - Criando o Jogo da Cobrinha com PyGame".
+O objetivo principal é adquirir e aprimorar conhecimentos sobre desenvolvimento de jogos utilizando a biblioteca PyGame.
